@@ -1,0 +1,295 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", system-ui;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #1a1a1a;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+    text-align: center;
+    
+    
+}
+
+.foto-perfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+    border: 4px solid #06A84A;
+    padding: 2px;
+   
+}
+
+h3{
+    font-size: 40px;
+   
+}
+
+h4{
+    font-size: 32px;
+    
+}
+
+h3, h4{
+    line-height: 130%;
+    margin: 16px 0px;
+ 
+    color: #f0f0f0;
+}
+
+p{
+    color: #777;
+}
+
+.text_color{
+    color: #06A84A;
+}
+
+.bentoXVI{
+
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+
+.project_section_01{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 16px;
+}
+
+.logo_01{
+    width: 320px;
+    height: 140px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    background-color: #F0F9F8;  
+    
+    
+}
+
+.section_mobile_01{
+    width: 320px;
+    height: 384px;
+    border-radius: 16px;
+    
+  
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: #A0E4DD;  
+    
+}
+
+.img_mobile{
+    width: 230px;
+    height: 337px;
+
+    
+}
+
+
+
+.section_desktop{
+    width: 884px;
+    height: 540px;
+    border-radius: 16px;
+
+    background-color: #D1F6F1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.img_desktop{
+    border-radius: 24px;
+    width: 750px;
+    height: 430px;
+
+   
+
+    transform: translate3d(0, 10px, 0);
+
+   /* box-shadow: 0px 3px 32px rgba(11, 15, 2, 0.39); */
+   
+}
+
+.project_section_02{
+
+    margin-top: 16px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.section_desktop_02{
+    width: 884px;
+    height: 540px;
+    border-radius: 16px;
+
+    background-color: #DDD1F6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo_02{
+    width: 320px;
+    height: 140px;
+    border-radius: 16px;
+
+    margin-bottom: 16px;
+    margin-left: 16px;
+    
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    background-color: #764EA0;  
+    
+    
+}
+
+.section_mobile_02{
+    width: 320px;
+    height: 384px;
+    border-radius: 16px;
+    
+    margin-left: 16px;
+  
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: #B7A0E4;  
+    
+}
+
+.project_section_03{
+
+    margin-top: 16px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_03{
+    width: 320px;
+    height: 140px;
+    border-radius: 16px;
+
+    margin-bottom: 16px;
+    margin-right: 16px;
+    
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    background-color: #434343;  
+    
+    
+}
+
+.section_mobile_03{
+    width: 320px;
+    height: 384px;
+    border-radius: 16px;
+    
+    margin-right: 16px;
+  
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: #676767;  
+    
+}
+
+.section_desktop_03{
+    width: 884px;
+    height: 540px;
+    border-radius: 16px;
+
+    background-color: #8B8B8B;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .container{
+      flex-direction: column;
+      }
+  }
